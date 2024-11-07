@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+   
+    <section id="header">
+        <a href="index.html"><img src="./Images/gymshark-logo-design-history-and-evolution-kreafolk_c1b75610-5b58-4a4d-bdb6-0d51ac45315b.jpg" class="logo" alt="Logo"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a class="active" href="cart.html"><i class="fa-solid fa-cart-shopping"></i> Cart</a></li>
+            </ul>
+        </div>
+    </section>
+
+    
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody id="cart-items">
+                
+            </tbody>
+        </table>
+
+        <div id="cart-summary">
+            <h3>Cart Summary</h3>
+            <p>Total: <span id="total-price">$0.00</span></p>
+            <button id="checkout-btn">Checkout</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
